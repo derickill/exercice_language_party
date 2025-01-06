@@ -7,4 +7,4 @@ for a in Liste:
 if new == mot:
     print("votre mot est un palindrom")
 else:
-    print("non desole")
+    print("non le mot n'est pas un palindrom")
