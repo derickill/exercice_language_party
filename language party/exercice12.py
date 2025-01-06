@@ -1,5 +1,5 @@
 import random as rd
-lon = int(input("donner la longeur du mo de pass"))
+lon = int(input("donner la longeur du mot de passe"))
 caracteres = [chr(i) for i in range(32, 127)]
 password = ""
 for i in range(lon):
