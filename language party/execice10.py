@@ -1,5 +1,5 @@
 #moyenne note
-note = (input("entrer toute vos note separer par une vigule"))
+note = (input("entrer toute vos notes separer par une vigule"))
 ouais = note.split(sep=",")
 n = 0
 for a in ouais:
