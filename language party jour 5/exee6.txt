@@ -1,0 +1,36 @@
+  GNU nano 7.2                     e6.sh#!/bin/bash
+if [ -e "test.txt" ]
+then
+        echo "le fichier existe"
+else
+        echo "le fichier n'existe pas "
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           [ Read 7 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

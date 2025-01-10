@@ -1,0 +1,37 @@
+  GNU nano 7.2                    e16.sh *
+#!/bin/bash
+
+if [ ! -f urls.txt ]; then
+    echo "Le fichier urls.txt n'existe pas."
+    exit 1
+fi
+
+for url in $(cat urls.txt); do
+    echo "Téléchargement de $url..."
+    curl -O "$url"
+    if [ $? -eq 0 ]; then
+        echo "Téléchargement réussi : $url"
+    else
+        echo "Échec du téléchargement : $url"
+    fi
+done
+
+echo "Tous les téléchargements sont terminés."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

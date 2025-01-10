@@ -1,0 +1,36 @@
+  GNU nano 7.2                    e15.sh#!/bin/bash
+
+rm *.tmp 2>/dev/null
+echo "Fichiers .tmp supprimés."
+
+tar -czf logs.tar.gz *.log 2>/dev/null
+echo "Fichiers .log archivés dans logs.tar.gz."
+
+echo "Actions terminées."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           [ Read 9 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

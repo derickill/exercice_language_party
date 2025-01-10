@@ -1,0 +1,36 @@
+  GNU nano 7.2                     e5.sh#!/bin/bash
+mkdir backup
+cp *.txt backup
+cd backup
+ls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           [ Read 5 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

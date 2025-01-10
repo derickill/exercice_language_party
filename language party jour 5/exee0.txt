@@ -1,0 +1,26 @@
+  GNU nano 7.2                                        end0.sh#!/bin/bash
+texte="Hello world from bash"
+echo$texte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               [ Read 3 lines ]
+^G Help        ^O Write Out   ^W Where Is    ^K Cut         ^T Execute     ^C Location    M-U Undo
+^X Exit        ^R Read File   ^\ Replace     ^U Paste       ^J Justify     ^/ Go To Line  M-E Redo

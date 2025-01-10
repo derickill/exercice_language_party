@@ -1,0 +1,36 @@
+  GNU nano 7.2                            e1.sh#!/bin/bash
+mkdir mon_dossier
+cd mon_dossier
+touch ficher{1..3}.txt
+ls
+rm fichier3.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  [ Read 6 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute    ^C Location
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify    ^/ Go To Line

@@ -1,0 +1,36 @@
+  GNU nano 7.2                    e11.sh *#!/bin/bash
+
+if [ ! -d ".git" ]; then
+    echo "Ce n'est pas un dépôt Git."
+    exit 1
+fi
+
+if [ -z "$1" ]; then
+    echo "Un message de commit est nécessaire."
+    exit 1
+fi
+
+git add .
+git commit -m "$1"
+git push
+
+if [ $? -eq 0 ]; then
+    echo "Les modifications ont été poussées avec succès."
+else
+    echo "Le push a échoué."
+    exit 1
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

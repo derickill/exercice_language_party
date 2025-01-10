@@ -1,0 +1,36 @@
+  GNU nano 7.2                     e7.sh#!/bin/bash
+touch journal.txt
+echo "Aujourd'hui est un beau jour." >> journal.txt
+echo "J'apprends le Bash." >> journal.txt
+echo "Le Bash est très puissant" >> journal.txt
+grep "Bash" journal.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           [ Read 6 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

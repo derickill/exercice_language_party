@@ -1,0 +1,36 @@
+  GNU nano 7.2                    e10.sh#!/bin/bash
+tar -cf mon_archive.tar.gz *.txt
+tar -tf mon_archive.tar.gz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           [ Read 3 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

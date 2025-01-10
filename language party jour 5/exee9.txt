@@ -1,0 +1,35 @@
+  GNU nano 7.2                     e9.sh#!/bin/bash
+curl -o fichierr https://github.com/itsfoss/text-script-files/blob/ma>mkdir telechargement
+mv fichierr telechargement
+cd telechargement
+cat fichierr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           [ Read 6 lines ]
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

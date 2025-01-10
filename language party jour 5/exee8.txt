@@ -1,0 +1,36 @@
+  GNU nano 7.2           e8.sh#!/bin/bash
+read -p "entrer ici votre fichier" fichier
+compteur(){
+        echo "voila le nombre de ligne de votre fi>        wc -l $fichier
+}
+compteur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 [ Read 7 lines ]
+^G Help     ^O Write Out^W Where Is ^K Cut
+^X Exit     ^R Read File^\ Replace  ^U Paste

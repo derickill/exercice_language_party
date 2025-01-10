@@ -1,0 +1,36 @@
+  GNU nano 7.2                    e19.sh *
+#!/bin/bash
+
+process=$1
+
+if ps aux | grep -v grep | grep -q "$process"; then
+    echo "Le processus $process est en cours d'execution."
+else
+    echo "Alerte : Le processus $process n'est pas en cours d'executi>fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify

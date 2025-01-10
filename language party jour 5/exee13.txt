@@ -1,0 +1,36 @@
+  GNU nano 7.2                      e13 *
+#!/bin/bash
+
+# Obtenir le pourcentage d'espace disque libre
+space=$(df / | tail -1 | awk '{print $5}' | sed 's/%//')
+
+# Vérifier si l'espace libre est inférieur à 10%
+if [ "$space" -lt 10 ]; then
+    echo " l'espace disque disponible est inférieur à 10%."else
+    echo "L'espace disque est suffisant : $space% libre."
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Help       ^O Write Out  ^W Where Is   ^K Cut        ^T Execute
+^X Exit       ^R Read File  ^\ Replace    ^U Paste      ^J Justify
